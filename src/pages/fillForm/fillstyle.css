@@ -1,0 +1,165 @@
+.parent-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+}
+.wrap-container {
+  margin-top: 10px;
+  width: 60vw;
+  background-color: white;
+
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dropdown-container {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+.label {
+  margin-bottom: 5px;
+  display: block;
+  margin-right: 5px;
+  color: #34495e;
+}
+.label-container {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  align-items: center;
+}
+.question-tag {
+  margin: 5px;
+}
+.dropdown {
+  height: 35px;
+  width: 100%;
+  border: 2px solid #e4e4e4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.arrow-down {
+  height: 9px;
+  width: 7px;
+  transform: rotate(90deg);
+}
+.section-heading {
+  background-color: #e4e4e4;
+  padding-left: 10px;
+  color: #34495e;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  width: 100%;
+}
+.dropdown-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.measure-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+.measure-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.measure-width {
+  width: 70%;
+}
+.widtharea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.measureWidthRow {
+  width: 220px;
+}
+.checkbox-section {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox-area {
+  width: 127px;
+  color: #34495e;
+}
+.checkbox-row {
+  display: flex;
+  flex-direction: row;
+}
+.checlist {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16%;
+  width: 50%;
+}
+
+@media (max-width: 450px) {
+  .container-body {
+    padding-top: 10px;
+  }
+  .wrap-container {
+    width: 90%;
+  }
+  .progress-bar {
+    padding-top: 30px;
+    width: 90%;
+  }
+  .section-heading {
+    font-size: 16px;
+  }
+  .measure-section {
+    flex-direction: column;
+  }
+
+  .measureWidthRow {
+    width: 70px;
+  }
+  .measure-width {
+    width: 100%;
+  }
+
+  .dropdown-section {
+    width: 100%;
+  }
+  .widtharea {
+    justify-content: space-between;
+  }
+  .dropdown-container {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  .dropdown {
+  }
+  .label-container {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .checkbox-section {
+    flex-direction: column;
+  }
+  .checkbox-row {
+    flex-direction: column;
+  }
+  .checlist {
+    margin-left: 0;
+  }
+}

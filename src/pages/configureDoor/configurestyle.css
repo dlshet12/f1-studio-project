@@ -1,0 +1,90 @@
+.parentContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+}
+.wrapContainer {
+  margin-top: 10px;
+  width: 60vw;
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dropdownSection {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+.dropdown-area {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  background-color: aquamarine;
+}
+.label-name {
+  margin-bottom: 5px;
+  display: block;
+  margin-right: 5px;
+  color: #34495e;
+}
+.labelarea {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  align-items: center;
+}
+.question {
+  margin: 5px;
+}
+.dropdownInput {
+  height: 35px;
+  width: 100%;
+  border: 2px solid #e4e4e4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.arrowdown {
+  height: 9px;
+  width: 7px;
+  transform: rotate(90deg);
+}
+.dropdown-sectionarea {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .parentContainer {
+    padding-top: 13%;
+  }
+  .wrapContainer {
+    margin-top: 0;
+    width: 90%;
+  }
+  .dropdownSection {
+    width: 100%;
+    flex-direction: column;
+  }
+  .dropDown {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+
+  .labelarea {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

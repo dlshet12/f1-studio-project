@@ -1,0 +1,132 @@
+.table-container {
+  overflow-x: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  font-weight: bold;
+}
+.table-header > div {
+  font-size: 14px;
+  color: #8894a0;
+  background-color: '#ffffff';
+}
+.table-header > div,
+.table-row > div {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+}
+.table-body > div {
+  font-size: 14px;
+  font-weight: 500;
+}
+.even-row {
+  background-color: #f2f2f2;
+}
+
+.odd-row {
+  background-color: #ffffff;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  width: 18%;
+  justify-content: space-between;
+}
+.search-bar input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 60px;
+  background-color: #f2f2f2;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 120px;
+  height: 35px;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-left: 10px;
+  width: 120px;
+  color: #6e3e37;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-icon {
+  margin-right: 5px;
+}
+.left-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 20%;
+}
+.buttons-bar {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  background-color: transparent;
+  color: #34495e;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.table-line {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 2px;
+  /* width: 100%; */
+  background-color: #dddedf;
+}
+
+.bottom-right-image {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  cursor: pointer;
+}
+.add-button {
+  height: 72px;
+  width: 72px;
+}
+
+@media (max-width: 480px) {
+  .buttons-bar {
+    padding-top: 32px;
+  }
+  .table-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
